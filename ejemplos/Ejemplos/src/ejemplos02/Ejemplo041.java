@@ -13,16 +13,26 @@ public class Ejemplo041 {
 
     public static void main(String[] args) {
         // 
-        obtenerMultiplicacion(primerValor, segundoValor); 
-        
+        int resultado;
+        String cadena;
+        int[][] valor1 = {{1, 2, 3}, {3, 2, 4}, {2, 6, 2}};
+        int[][] valor2 = {{1, 2, 3}, {2, 2, 2}, {3, 1, 2}};
+        for (int f = 0; f < valor1.length; f++) {
+            cadena = "";
+            for (int i = 0; i < valor1[f].length; i++) {
+                resultado = obtenerMultiplicacion(valor1[f][i], valor2[f][i]);
+                cadena = String.format("%s%s\t",
+                        cadena, resultado);
+            }
+            System.out.printf("%s\n", cadena);
+        }
+
     }
-        
-    public static void obtenerSuma(int a, int b){
-        int suma;
-        suma = a + b;
-        System.out.printf("El valor de la suma es: %d\n", suma);
-        
+
+    public static int obtenerMultiplicacion(int a, int b) {
+        int mult;
+        mult = a * b;
+        return mult;
     }
-    
-    
+
 }
