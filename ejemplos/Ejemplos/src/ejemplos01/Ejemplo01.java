@@ -24,7 +24,9 @@ public class Ejemplo01 {
         String miMensaje = obtenerMultiplicaciondos(7, 50);
         System.out.printf("%s\n", miMensaje);
     }
-
+        // Se crearon nuevos metodos al principio para poder crear la tabla de 
+        // multiplicar y asi establecer hasta un limite.
+        // Seguidamente creamos un metodo de tipo cadena.
     public static String obtenerCiudadMayuscula(String m) {
         String m2 = m.toUpperCase();
         return m2;

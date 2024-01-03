@@ -32,7 +32,8 @@ public class Ejemplo08 {
         String cadena = "";
         for (int i = 1; i <= limite; i++) {
             operacion = tabla + i;
-            cadena = String.format("%s%d + %d = %d\n", cadena, tabla, i, 
+            cadena = String.format("%s%d + %d = %d\n",
+                    cadena, tabla, i, 
                     operacion);
         }
         return cadena;        
@@ -43,7 +44,8 @@ public class Ejemplo08 {
         String cadena = "";
         for (int i = 1; i <= limite; i++) {
             operacion = tabla * i;
-            cadena = String.format("%s%d * %d = %d\n", cadena, tabla, i, 
+            cadena = String.format("%s%d * %d = %d\n",
+                    cadena, tabla, i, 
                     operacion);
         }
         return cadena;
