@@ -10,7 +10,7 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo05 {
-    // aquí globales
+    // aquí globales dos
     public static void main(String[] args) {
         // 
         int suma = 100;
