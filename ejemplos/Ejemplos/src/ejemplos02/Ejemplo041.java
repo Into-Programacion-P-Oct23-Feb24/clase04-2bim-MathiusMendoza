@@ -21,10 +21,10 @@ public class Ejemplo041 {
             for (int c = 0; c < arreglo1[f].length; c++) {
                 arreglo3[f][c] = obtenerMultiplicacion(arreglo1[f][c],
                         arreglo2[f][c]);
-                /*
-                Utilizo ciclos for para recorrer y declarar los 
-                valores de arreglo3
-                 */
+                
+                // Utilizo ciclos for para recorrer y declarar los 
+                // valores de arreglo3
+                 
             }
         }
         for (int f = 0; f < arreglo1.length; f++) {
