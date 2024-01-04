@@ -21,23 +21,17 @@ public class Ejemplo041 {
             for (int c = 0; c < arreglo1[f].length; c++) {
                 arreglo3[f][c] = obtenerMultiplicacion(arreglo1[f][c],
                         arreglo2[f][c]);
-                /*
-                Utilizo estos ciclos for para poder recorrer y declarar los 
-                valores que voy a usar para utilizar la funcion de arreglo3
-                 */
+             
             }
         }
         for (int f = 0; f < arreglo1.length; f++) {
             for (int c = 0; c < arreglo1.length; c++) {
                 System.out.printf("%s\t", arreglo1[f][c]);
-                /*
-                Utilizo los ciclos for para recorrer la matriz y asi poder 
-                presentarla, uso \t que equivale a un TAB de teclado y con ello
-                puedo presentar de forma visual las 3 columnas | | |
-                 */
+               
+              
             }
             System.out.println("");
-            //Uso este print para 
+        
         }
         System.out.println("\n");
         for (int f = 0; f < arreglo2.length; f++) {
